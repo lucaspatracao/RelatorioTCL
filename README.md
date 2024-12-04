@@ -1,5 +1,3 @@
-# Relatório sobre TCL (Transaction Control Language) no MySQL
-
 # 1. O que é TCL e sua importância em um banco de dados?
 
 **Definição de TCL**
