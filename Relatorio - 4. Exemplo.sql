@@ -18,8 +18,8 @@ COMMIT;
 
 -- Caso ocorra algum erro após o ponto de salvamento, podemos desfazer as operações realizadas após o SAVEPOINT.
 -- Este comando reverte as alterações feitas após 'cliente_inserted', mas mantém o que foi feito antes dele.
--- ROLLBACK TO SAVEPOINT cliente_inserted;
+ROLLBACK TO SAVEPOINT cliente_inserted;
 
 -- Caso queiramos desfazer todas as alterações feitas desde o início da transação, usamos o comando abaixo.
 -- Ele anula tudo que foi executado desde o START TRANSACTION.
--- ROLLBACK;
+ROLLBACK;
