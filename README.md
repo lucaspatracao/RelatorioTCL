@@ -76,3 +76,15 @@ Um sistema bancário que transfere fundos entre contas:
 # 4. Exemplo prático de código
 
 *No arquivo SQL anexado no repositório.*
+
+# 5. Conclusão
+
+**Importância da TCL**
+
+A TCL é **essencial para a integridade e consistência dos dados** em sistemas de banco de dados. Ela permite que as *operações sejam tratadas como unidades indivisíveis* e *facilita a recuperação* em cenários de falha.
+
+**Vantagens das transações em sistemas críticos**
+
+- **Integridade:** Garantia de que as operações ocorrem de forma completa e segura.
+- **Recuperação de falhas:** Minimiza danos em caso de interrupções inesperadas.
+- **Escalabilidade:** Fundamental em sistemas de grande porte, como bancos e e-commerces.
